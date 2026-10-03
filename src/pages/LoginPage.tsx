@@ -1,0 +1,3 @@
+import {CheckCircle2,Sparkles} from 'lucide-react'
+import {LoginForm} from '@/features/auth/LoginForm'
+export function LoginPage(){return <main className="login-page"><section className="hero"><div className="hero-badge"><Sparkles size={14}/> Front-end Developer · Digital Banking</div><h2>Responsive UI.<br/>Clean React.<br/>Real API data.</h2><p>This implementation follows the supplied take-home requirements and adds loading, error and pagination states.</p><div className="hero-points"><span><CheckCircle2 size={16}/> React + TypeScript</span><span><CheckCircle2 size={16}/> RHF + Zod validation</span><span><CheckCircle2 size={16}/> Responsive API table</span></div></section><section className="login-panel"><LoginForm/></section></main>}
